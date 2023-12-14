@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
         tvTask1 = findViewById(R.id.tvTask1);
         tvTask1.setText("Task1");
         tvTask2 = findViewById(R.id.tvTask2);
